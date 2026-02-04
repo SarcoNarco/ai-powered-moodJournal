@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment internals only
+/moodjournal-venv/lib/
+/moodjournal-venv/bin/
+/moodjournal-venv/share/
+pyvenv.cfg
+
+# Model weights / large ML files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+
+# Dataset temp files
+datasets/
+tmp_trainer/
